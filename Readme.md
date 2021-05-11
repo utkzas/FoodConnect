@@ -1,4 +1,4 @@
-# Search Engine Response Page
+# Food Connect: Search Engine Response Page
 
 This is a Trie + levenshtein distance based, mobile-ready, bootstrap - Jquery powered Search engine response page which comes with default dataset of some marvel characters and lets you add/index your own entries for you to use later.
 
