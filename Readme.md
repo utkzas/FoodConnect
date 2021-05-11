@@ -1,7 +1,6 @@
 # Food Connect: Search Engine Response Page
 
-This is a Trie + levenshtein distance based, mobile-ready, bootstrap - Jquery powered Search engine response page which comes with default dataset of some marvel characters and lets you add/index your own entries for you to use later.
-
+This is a Trie + levenshtein distance based, mobile-ready, bootstrap - Jquery powered Search engine response page which comes with dataset of Charity based (Free) Food Leads for COVID affected patients thoughout the country.
 In this terrible time of chaos and death, the heartening news is that there are many lending a helping hand to people in need. People are organising food for those who are in _no position to cook_. But there was a need for connecting all of them together.
 
 This Project is solution for those looking for nutritious meals in different places throughout India that are tasty and prepared and delivered with all precautionary measures in place.
