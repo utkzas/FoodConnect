@@ -29,7 +29,7 @@ It doesn't have a backend and hence any entry made will only be available on sam
 
 ## Installation
 
-SERP requires [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) to install and bundle JS dependecies.
+It requires [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) to install and bundle JS dependecies.
 
 Install the node and npm if it is not installed and do the following.
 
