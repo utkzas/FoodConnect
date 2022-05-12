@@ -1,7 +1,8 @@
 # Food Connect: Search Engine Response Page
 
-This is a Trie + levenshtein distance based, mobile-ready, bootstrap - Jquery powered Search engine response page which comes with dataset of Charity based (Free) Food Leads for COVID affected patients thoughout the country.
-In this terrible time of chaos and death, the heartening news is that there are many lending a helping hand to people in need. People are organising food for those who are in _no position to cook_. But there was a need for connecting all of them together.
+This is a Trie + levenshtein distance based, mobile-ready, localstorage run, bootstrap - Jquery powered Search engine response page which comes with dataset of Charity based (Free) Food Leads for COVID affected patients thoughout the country.
+
+In this terrible of pandemic, the heartening news is that there are many lending a helping hand to people in need. People are organising food for those who are in _no position to cook_. But there is a need for connecting all of them together.
 
 This Project is solution for those looking for nutritious meals in different places throughout India that are tasty and prepared and delivered with all precautionary measures in place.
 
@@ -24,6 +25,8 @@ This Project uses a number of open source projects:
 - [Browserify](http://browserify.org) - Browserify lets you require('modules') in the browser by bundling up all of your dependencies. It is used to bundle autosuggest-trie and js-levenshtein to be used on browsers.
 - [js-levenshtein](https://github.com/gustf/js-levenshtein) - Pure JS implementation calculating the Levenshtein distance between two strings.
 
+It doesn't have a backend and hence any entry made will only be available on same device (just trying to display search capabilties using pure javascript)
+
 ## Installation
 
 SERP requires [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) to install and bundle JS dependecies.
@@ -41,15 +44,6 @@ Once installed, move ahead to bundle the dependencies with browserify:
 ```
 browserify main.js -o bundle.js
 ```
-
-## Deployment
-
-You are free to deploy and host it with absolutely any hosting/web service. The repository has index.html which serves as default page and is implicitly recognised as default home page of any hosted web whereever you deploy it. 
-
-For simplicity, you can just clone the repo make your own changes as you need and use your own repo with netlify or similar services to link your github repository for an automated github event trigger based continuous deployment.
-
-to know more follow step by step guide here: https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app
-
 
 
 ## License
