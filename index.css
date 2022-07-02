@@ -213,3 +213,26 @@ td {
 .match {
     background-color: #ffe6ae;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+div.containerEnd {
+background-color: #ffffff;
+}
+div.containerEnd p {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+text-transform: none;
+color: #000000;
+background-color: #ffffff;
+}
